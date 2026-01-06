@@ -472,12 +472,29 @@ export default function ToolFinder() {
     setIsLoadingAI(true);
     setAiRecommendations(null);
     
-    // Simulate API call
-    setTimeout(() => {
-      const recommended = toolsData.tools.slice(0, 3);
-      setAiRecommendations(recommended);
+    try {
+      const response = await fetch('/api/recommand', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ query: aiQuery }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to get recommendations');
+      }
+
+      const data = await response.json();
+      setAiRecommendations(data.recommendations);
+    } catch (error) {
+      console.error('Error getting AI recommendations:', error);
+      alert('Failed to get recommendations. Please try again.');
+      // Fallback to showing first 3 tools
+      setAiRecommendations(toolsData.tools.slice(0, 3));
+    } finally {
       setIsLoadingAI(false);
-    }, 2000);
+    }
   };
 
   const clearAIRecommendations = () => {

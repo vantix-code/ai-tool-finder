@@ -1,0 +1,492 @@
+{
+    "categories": [
+      {
+        "id": "marketing",
+        "name": "Marketing",
+        "description": "Tools for email marketing, social media, SEO, and customer engagement"
+      },
+      {
+        "id": "development",
+        "name": "Development",
+        "description": "Code editors, version control, deployment, and development tools"
+      },
+      {
+        "id": "finance",
+        "name": "Finance",
+        "description": "Accounting, invoicing, expense tracking, and financial management"
+      },
+      {
+        "id": "ai",
+        "name": "AI & Machine Learning",
+        "description": "AI-powered tools for content, coding, design, and automation"
+      },
+      {
+        "id": "productivity",
+        "name": "Productivity",
+        "description": "Project management, note-taking, collaboration, and workflow tools"
+      }
+    ],
+    "tools": [
+      {
+        "id": "mailchimp",
+        "name": "Mailchimp",
+        "category": "marketing",
+        "shortDescription": "All-in-one email marketing and automation platform",
+        "features": [
+          "Email campaign builder with templates",
+          "Marketing automation workflows",
+          "Audience segmentation and analytics",
+          "Landing pages and signup forms",
+          "A/B testing capabilities"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "Up to 500 contacts"},
+            {"name": "Essentials", "price": "$13/mo", "details": "Up to 50,000 contacts"},
+            {"name": "Standard", "price": "$20/mo", "details": "Advanced features"},
+            {"name": "Premium", "price": "$350/mo", "details": "Unlimited seats"}
+          ]
+        },
+        "pros": [
+          "Intuitive drag-and-drop interface",
+          "Generous free tier for beginners",
+          "Strong analytics and reporting",
+          "Wide range of integrations"
+        ],
+        "cons": [
+          "Can get expensive as list grows",
+          "Limited automation on lower tiers",
+          "Customer support varies by plan"
+        ],
+        "affiliateLink": "https://mailchimp.com",
+        "officialSite": "https://mailchimp.com",
+        "tags": ["email", "automation", "marketing", "analytics", "campaigns"]
+      },
+      {
+        "id": "hubspot",
+        "name": "HubSpot",
+        "category": "marketing",
+        "shortDescription": "Complete CRM and marketing automation suite",
+        "features": [
+          "Full CRM with contact management",
+          "Email marketing and sequences",
+          "Social media management",
+          "Content management system (CMS)",
+          "Sales pipeline tracking"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "Basic CRM features"},
+            {"name": "Starter", "price": "$45/mo", "details": "Marketing basics"},
+            {"name": "Professional", "price": "$800/mo", "details": "Advanced automation"},
+            {"name": "Enterprise", "price": "$3,600/mo", "details": "Full suite"}
+          ]
+        },
+        "pros": [
+          "Powerful free CRM tier",
+          "All-in-one platform (marketing + sales)",
+          "Excellent educational resources",
+          "Scales with business growth"
+        ],
+        "cons": [
+          "Steep learning curve",
+          "Professional tier is pricey",
+          "Can be overkill for small businesses"
+        ],
+        "affiliateLink": "https://hubspot.com",
+        "officialSite": "https://hubspot.com",
+        "tags": ["crm", "marketing", "sales", "automation", "analytics"]
+      },
+      {
+        "id": "semrush",
+        "name": "SEMrush",
+        "category": "marketing",
+        "shortDescription": "Comprehensive SEO and competitive research tool",
+        "features": [
+          "Keyword research and tracking",
+          "Competitor analysis",
+          "Site audit and technical SEO",
+          "Content marketing tools",
+          "Backlink analysis"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "tiers": [
+            {"name": "Pro", "price": "$129.95/mo", "details": "5 projects"},
+            {"name": "Guru", "price": "$249.95/mo", "details": "15 projects"},
+            {"name": "Business", "price": "$499.95/mo", "details": "40 projects"}
+          ]
+        },
+        "pros": [
+          "Deep competitive intelligence",
+          "Comprehensive SEO toolkit",
+          "Regular feature updates",
+          "Great for agencies"
+        ],
+        "cons": [
+          "No free tier",
+          "Can be overwhelming for beginners",
+          "Data limits on lower plans"
+        ],
+        "affiliateLink": "https://semrush.com",
+        "officialSite": "https://semrush.com",
+        "tags": ["seo", "keywords", "analytics", "competition", "marketing"]
+      },
+      {
+        "id": "vscode",
+        "name": "Visual Studio Code",
+        "category": "development",
+        "shortDescription": "Free, powerful code editor with extensive extensions",
+        "features": [
+          "IntelliSense code completion",
+          "Integrated Git control",
+          "Debugging tools built-in",
+          "Thousands of extensions",
+          "Multi-language support"
+        ],
+        "pricing": {
+          "model": "Free",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "All features included"}
+          ]
+        },
+        "pros": [
+          "Completely free and open source",
+          "Lightning fast performance",
+          "Massive extension ecosystem",
+          "Regular updates from Microsoft"
+        ],
+        "cons": [
+          "Can be resource-heavy with many extensions",
+          "Requires configuration for some languages",
+          "Learning curve for advanced features"
+        ],
+        "affiliateLink": "https://code.visualstudio.com",
+        "officialSite": "https://code.visualstudio.com",
+        "tags": ["code-editor", "ide", "development", "git", "debugging"]
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "category": "development",
+        "shortDescription": "Git repository hosting and collaboration platform",
+        "features": [
+          "Git version control hosting",
+          "Pull requests and code review",
+          "GitHub Actions for CI/CD",
+          "Project management tools",
+          "Security scanning"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "Unlimited public/private repos"},
+            {"name": "Team", "price": "$4/user/mo", "details": "Advanced collaboration"},
+            {"name": "Enterprise", "price": "$21/user/mo", "details": "Enterprise features"}
+          ]
+        },
+        "pros": [
+          "Industry standard for developers",
+          "Generous free tier",
+          "Excellent documentation",
+          "Huge community"
+        ],
+        "cons": [
+          "Can be complex for beginners",
+          "Some features locked behind paid tiers",
+          "Large file handling limitations"
+        ],
+        "affiliateLink": "https://github.com",
+        "officialSite": "https://github.com",
+        "tags": ["git", "version-control", "collaboration", "ci-cd", "development"]
+      },
+      {
+        "id": "vercel",
+        "name": "Vercel",
+        "category": "development",
+        "shortDescription": "Frontend deployment platform optimized for Next.js",
+        "features": [
+          "Instant Git deployments",
+          "Automatic HTTPS and CDN",
+          "Preview deployments for PRs",
+          "Serverless functions",
+          "Built-in analytics"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Hobby", "price": "$0", "details": "Personal projects"},
+            {"name": "Pro", "price": "$20/mo", "details": "Professional projects"},
+            {"name": "Enterprise", "price": "Custom", "details": "Custom solutions"}
+          ]
+        },
+        "pros": [
+          "Zero-configuration deployments",
+          "Excellent Next.js integration",
+          "Fast global CDN",
+          "Great developer experience"
+        ],
+        "cons": [
+          "Can get expensive with traffic",
+          "Serverless function limitations",
+          "Less flexibility than traditional hosting"
+        ],
+        "affiliateLink": "https://vercel.com",
+        "officialSite": "https://vercel.com",
+        "tags": ["hosting", "deployment", "nextjs", "serverless", "cdn"]
+      },
+      {
+        "id": "quickbooks",
+        "name": "QuickBooks Online",
+        "category": "finance",
+        "shortDescription": "Complete accounting software for small businesses",
+        "features": [
+          "Income and expense tracking",
+          "Invoicing and payments",
+          "Tax preparation support",
+          "Payroll integration",
+          "Financial reports and insights"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "tiers": [
+            {"name": "Simple Start", "price": "$30/mo", "details": "1 user"},
+            {"name": "Essentials", "price": "$55/mo", "details": "3 users"},
+            {"name": "Plus", "price": "$85/mo", "details": "5 users"},
+            {"name": "Advanced", "price": "$200/mo", "details": "25 users"}
+          ]
+        },
+        "pros": [
+          "Industry-leading accounting features",
+          "Strong bank integrations",
+          "Mobile app included",
+          "Excellent tax support"
+        ],
+        "cons": [
+          "Steep learning curve",
+          "Can be pricey for solopreneurs",
+          "Occasional syncing issues"
+        ],
+        "affiliateLink": "https://quickbooks.intuit.com",
+        "officialSite": "https://quickbooks.intuit.com",
+        "tags": ["accounting", "invoicing", "expenses", "taxes", "payroll"]
+      },
+      {
+        "id": "wave",
+        "name": "Wave",
+        "category": "finance",
+        "shortDescription": "Free accounting software for small businesses",
+        "features": [
+          "Free accounting and invoicing",
+          "Receipt scanning",
+          "Bank connections",
+          "Financial reports",
+          "Multi-business management"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "Core accounting features"},
+            {"name": "Payments", "price": "2.9% + $0.60/transaction", "details": "Accept credit cards"},
+            {"name": "Payroll", "price": "$40/mo + $6/employee", "details": "Add payroll"}
+          ]
+        },
+        "pros": [
+          "Completely free core features",
+          "Easy to use interface",
+          "Great for freelancers",
+          "No hidden fees"
+        ],
+        "cons": [
+          "Limited features vs paid options",
+          "No inventory tracking",
+          "Payment processing fees can add up"
+        ],
+        "affiliateLink": "https://waveapps.com",
+        "officialSite": "https://waveapps.com",
+        "tags": ["accounting", "invoicing", "free", "expenses", "receipts"]
+      },
+      {
+        "id": "chatgpt",
+        "name": "ChatGPT",
+        "category": "ai",
+        "shortDescription": "Advanced AI chatbot for content, code, and research",
+        "features": [
+          "Natural language conversations",
+          "Code generation and debugging",
+          "Content writing and editing",
+          "Research and summarization",
+          "Multi-language support"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "GPT-3.5 access"},
+            {"name": "Plus", "price": "$20/mo", "details": "GPT-4 + priority"},
+            {"name": "Team", "price": "$25/user/mo", "details": "Collaboration features"},
+            {"name": "Enterprise", "price": "Custom", "details": "Custom solutions"}
+          ]
+        },
+        "pros": [
+          "Most advanced conversational AI",
+          "Versatile use cases",
+          "Constantly improving",
+          "Great free tier"
+        ],
+        "cons": [
+          "Can generate incorrect information",
+          "Knowledge cutoff date",
+          "Rate limits on free tier"
+        ],
+        "affiliateLink": "https://chat.openai.com",
+        "officialSite": "https://chat.openai.com",
+        "tags": ["ai", "chatbot", "content", "coding", "research"]
+      },
+      {
+        "id": "midjourney",
+        "name": "Midjourney",
+        "category": "ai",
+        "shortDescription": "AI image generation tool for stunning artwork",
+        "features": [
+          "Text-to-image generation",
+          "Multiple art styles",
+          "High-resolution outputs",
+          "Image variations and remixing",
+          "Community gallery"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "tiers": [
+            {"name": "Basic", "price": "$10/mo", "details": "~200 images"},
+            {"name": "Standard", "price": "$30/mo", "details": "~900 images"},
+            {"name": "Pro", "price": "$60/mo", "details": "~1800 images"},
+            {"name": "Mega", "price": "$120/mo", "details": "~3600 images"}
+          ]
+        },
+        "pros": [
+          "Exceptional image quality",
+          "Unique artistic style",
+          "Active community",
+          "Regular improvements"
+        ],
+        "cons": [
+          "No free tier",
+          "Requires Discord",
+          "Learning curve for prompts"
+        ],
+        "affiliateLink": "https://midjourney.com",
+        "officialSite": "https://midjourney.com",
+        "tags": ["ai", "images", "art", "design", "generation"]
+      },
+      {
+        "id": "notion",
+        "name": "Notion",
+        "category": "productivity",
+        "shortDescription": "All-in-one workspace for notes, docs, and projects",
+        "features": [
+          "Flexible note-taking",
+          "Database and spreadsheets",
+          "Project management",
+          "Team collaboration",
+          "Templates and integrations"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "Personal use"},
+            {"name": "Plus", "price": "$10/user/mo", "details": "Small teams"},
+            {"name": "Business", "price": "$18/user/mo", "details": "Advanced features"},
+            {"name": "Enterprise", "price": "Custom", "details": "Custom solutions"}
+          ]
+        },
+        "pros": [
+          "Extremely flexible and customizable",
+          "Beautiful interface",
+          "Strong community and templates",
+          "Generous free tier"
+        ],
+        "cons": [
+          "Can be slow with large databases",
+          "Steep learning curve",
+          "Offline functionality limited"
+        ],
+        "affiliateLink": "https://notion.so",
+        "officialSite": "https://notion.so",
+        "tags": ["notes", "productivity", "collaboration", "database", "wiki"]
+      },
+      {
+        "id": "trello",
+        "name": "Trello",
+        "category": "productivity",
+        "shortDescription": "Visual project management with boards and cards",
+        "features": [
+          "Kanban-style boards",
+          "Card checklists and attachments",
+          "Team collaboration",
+          "Power-ups for integrations",
+          "Mobile apps"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "10 boards per workspace"},
+            {"name": "Standard", "price": "$5/user/mo", "details": "Unlimited boards"},
+            {"name": "Premium", "price": "$10/user/mo", "details": "Advanced features"},
+            {"name": "Enterprise", "price": "$17.50/user/mo", "details": "Enterprise security"}
+          ]
+        },
+        "pros": [
+          "Simple and intuitive",
+          "Great for visual thinkers",
+          "Powerful free tier",
+          "Lots of integrations"
+        ],
+        "cons": [
+          "Limited reporting features",
+          "Can get cluttered with large projects",
+          "Power-ups limited on free tier"
+        ],
+        "affiliateLink": "https://trello.com",
+        "officialSite": "https://trello.com",
+        "tags": ["project-management", "kanban", "collaboration", "tasks", "boards"]
+      },
+      {
+        "id": "slack",
+        "name": "Slack",
+        "category": "productivity",
+        "shortDescription": "Team communication and collaboration platform",
+        "features": [
+          "Channels for team conversations",
+          "Direct messaging",
+          "File sharing",
+          "App integrations (2000+)",
+          "Video and audio calls"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "tiers": [
+            {"name": "Free", "price": "$0", "details": "90-day message history"},
+            {"name": "Pro", "price": "$7.25/user/mo", "details": "Unlimited history"},
+            {"name": "Business+", "price": "$12.50/user/mo", "details": "Advanced features"},
+            {"name": "Enterprise Grid", "price": "Custom", "details": "Large organizations"}
+          ]
+        },
+        "pros": [
+          "Excellent for remote teams",
+          "Tons of integrations",
+          "User-friendly interface",
+          "Great search functionality"
+        ],
+        "cons": [
+          "Can be distracting",
+          "Free tier message limit",
+          "Gets expensive for large teams"
+        ],
+        "affiliateLink": "https://slack.com",
+        "officialSite": "https://slack.com",
+        "tags": ["communication", "collaboration", "messaging", "team", "chat"]
+      }
+    ]
+  }
